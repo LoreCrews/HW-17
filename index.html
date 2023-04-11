@@ -6,25 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <title>Lore Crews UX UI Designer</title>
   <link rel="icon" type="image/x-icon" href="./images/LCFavicon.ico">
 </head>
 <body>
-    <nav id="navBar">
+    <header>
         <div class="logo"><img src="images/logo.png"></div>
-            <div id="navigation">
-            <a href="#">WORK</a>
-            <a href="#">ABOUT</a>
-              <a href="#">CONTACT</a>
-        </div>
-      </nav>
-      <section id="heroGrid">
-        <div id="headline">
+            <nav>
+            <a href="#" class="active">WORK</a>
+            <a href="About.html">ABOUT</a>
+              <a href="#">CONTACT</a></nav>
+        </header>
+      
+      <section class="heroGrid">
+        <div class="headline">
         <h1>Hi, I'm Lore</h1>
        <p>I am a UX UI designer based in Orlando, Fl. I design digital products, websites, and brand identities.</p>
-       <button id="button_resume">DONWNLOAD RESUME</button>   
+       <button class="button_resume">DONWNLOAD RESUME</button>   
       </div>
       <div id="work">
         <h4>Take a look at my latest work</h4>
@@ -33,27 +32,38 @@
 
 <section id="body_home">
 <h2>UX case studies</h2>
-  <div id="container1">
+  <div class="container">
     <div class="left>"> <img src="images/AfA.jpeg"></div>
     <div class="right">
       <div class="content">
         <h3>Academy for autism</h3> 
-      <p>Redesigned and rebranded website</p>
-      <button id="button_green">Read case study</button></div>
+      <p>Adademy for Autism is a non-profit organization to provide low and middle income families with children with autism with an alternative education solution.</p>
+      <button class="button_green">Read case study</button></div>
       </div>
     </div>
 
-    <div id="container1">
+    <div class="container">
       <div class="left2">
         <div class="content">
-          <h3>Academy for autism</h3> 
-          <p>Redesigned and rebranded website</p>
-            <button id="button_green">Read case study</button>
+          <h3>Monzu</h3> 
+          <p>Monzu is an app that allows users to interact with a character to inspire them on a daily basis to read more.</p>
+            <button class="button_green">Read case study</button>
         </div>
     </div>
     <div class="right2">
-      <img src="images/AfA.jpeg">
+      <img src="images/Monzu.jpeg">
     </div>
+    </div>
+
+    <div class="container">
+      <div class="left>"> <img src="images/TDirect.jpeg"></div>
+      <div class="right">
+        <div class="content">
+          <h3>Treasury Direct</h3> 
+          <p>Treasury Direct is a government organization which is the one and only place to electronically buy and redeem U.S. Savings Bonds.</p>
+        <button class="button_green">Read case study</button></div>
+        </div>
+      </div>
   </section>
 
       <footer>
