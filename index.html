@@ -12,11 +12,12 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="images/logo.png"></div>
+        <a href="index.html" class="logo"><img src="images/logo.png"></a>
             <nav>
             <a href="#" class="active">WORK</a>
             <a href="About.html">ABOUT</a>
-              <a href="#">CONTACT</a></nav>
+              <a href="#contact">CONTACT</a>
+            </nav>
         </header>
       
       <section class="heroGrid">
@@ -27,13 +28,14 @@
       </div>
       <div id="work">
         <h4>Take a look at my latest work</h4>
-        <img src="images/arrow.png"></div>
+        <a href="#body_home"><img src="images/arrow.png"></a>
+      </div>
        </section>
 
 <section id="body_home">
 <h2>UX case studies</h2>
   <div class="container">
-    <div class="left>"> <img src="images/AfA.jpeg"></div>
+    <div class="left"> <img src="images/AfA.jpeg"></div>
     <div class="right">
       <div class="content">
         <h3>Academy for autism</h3> 
@@ -56,7 +58,7 @@
     </div>
 
     <div class="container">
-      <div class="left>"> <img src="images/TDirect.jpeg"></div>
+      <div class="left"> <img src="images/TDirect.jpeg"></div>
       <div class="right">
         <div class="content">
           <h3>Treasury Direct</h3> 
@@ -66,12 +68,26 @@
       </div>
   </section>
 
-      <footer>
-       <img src="images/email_icon.svg" style="width: 30px;">
-        <img src="images/LinkedIn_icon.svg" style="width: 30px;">
-      </footer>
-    </header>
-    
+      <section class="bigfooter" id="contact">
+        <h2>Contact</h2>
+        <ul class="footer flex-column">
+          <li class="foot-item">
+            <a class="foot-link" href="mailto:lore.crews1@gmail.com">Email</a>
+          </li>
+          <li class="foot-item">
+            <a class="foot-link" href="https://www.linkedin.com/in/lorecrews">LinkedIn</a>
+          </li>
+        </ul>
+
+        <!-- <h2>CONTACT</h2>
+       <img src="images/email_icon.svg" style="width: 30px;"> <p>Email</p>
+        <img src="images/LinkedIn_icon.svg" style="width: 30px;"> -->
+
+
+
+
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
 

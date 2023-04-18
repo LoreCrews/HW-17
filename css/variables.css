@@ -3,6 +3,9 @@
 :root {
     --Primary: #333333;
     --Primary-light: #B6F5D3;
-
+/* font */
     --bodyFont:'Kanit', sans-serif;
+    /* --h1-fontSize: 3rem;
+    --h2-fontSize: 3rem; */
 }
+
