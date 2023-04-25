@@ -375,3 +375,13 @@ flex-direction: row;
   padding: 10px;
 }
 
+.small {
+  text-transform: uppercase;
+  letter-spacing: 30%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.container2{
+
+}
